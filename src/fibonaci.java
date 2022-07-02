@@ -3,11 +3,13 @@ public class fibonaci {
         int i = 0, a = 0, b = 1, c = 0;
         for (i = 0; i < 10; i++) {
             System.out.print(a + ",");
-            if (i < 9) {
+            if (i < 9)
+            {
                 c = a + b;
                 a = b;
                 b = c;
-            } else {
+            } else
+            {
                 System.out.print(a);
             }
         }
